@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Waroeng Mangan</string>
+    <string name="title_activity_edit_discount">EditDiscountActivity</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Seting</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+
+    <string name="navigation_view_item_1">Beranda</string>
+    <string name="navigation_view_item_2">Setting</string>
+    <string name="navigation_view_item_3">About</string>
+
+
+</resources>

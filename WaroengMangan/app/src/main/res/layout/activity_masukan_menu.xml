@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/masukanAcivity"
+    tools:context="com.example.galang.waroengmangan.MasukanMenuActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <include
+            android:id="@+id/toolbar2"
+            layout="@layout/layout_toolbar">
+        </include>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_floatingLabel="highlight"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/txt_nama"
+            app:met_floatingLabelText="Masukkan menu"
+            android:hint="Masukkan nama menu"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:id="@+id/txt_harga"
+            android:layout_height="wrap_content"
+            app:met_floatingLabel="highlight"
+            android:layout_marginBottom="10dp"
+            app:met_floatingLabelText="Masukan harga"
+            android:inputType="number"
+            android:hint="Masukan Harga"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:id="@+id/txt_deskripsi"
+            android:layout_height="wrap_content"
+            app:met_floatingLabel="highlight"
+            android:layout_marginBottom="10dp"
+            app:met_floatingLabelText="Masukan deskripsi"
+            android:hint="Masukan deskripsi"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/txt_tambah_gambar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Tambahkan Gambar"/>
+
+                <ImageButton
+                    android:id="@+id/btn_tambah_gambar"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tambah" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/image"
+
+                android:layout_marginLeft="30dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp" />
+
+
+
+        <Button
+            android:id="@+id/btn_submit"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

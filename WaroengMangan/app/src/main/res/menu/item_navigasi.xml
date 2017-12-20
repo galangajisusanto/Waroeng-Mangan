@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/navigation1"
+            android:checked="false"
+            android:icon="@drawable/ic_beranda"
+            android:title="@string/navigation_view_item_1" />
+        <item
+            android:id="@+id/navigation2"
+            android:checked="false"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/navigation_view_item_2" />
+    </group>
+
+
+    <item
+        android:id="@+id/navigasi_kategori_2"
+        android:title="Lainya">
+        <menu>
+
+            <item
+                android:id="@+id/navigation3"
+                android:checked="false"
+                android:icon="@drawable/ic_about"
+                android:title="@string/navigation_view_item_3" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "394471429663",
+    "firebase_url": "https://waroengmangan-6e6f0.firebaseio.com",
+    "project_id": "waroengmangan-6e6f0",
+    "storage_bucket": "waroengmangan-6e6f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394471429663:android:a36ca391240c0f48",
+        "android_client_info": {
+          "package_name": "com.example.galang.waroengmangan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394471429663-9b6np7avsfqoeg7qbbpimk51cpp23vr3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0OXqGGmz_tZ4N88yQgiEhlccf3NxiYLw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
